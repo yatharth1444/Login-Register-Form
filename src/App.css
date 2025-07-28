@@ -1,0 +1,35 @@
+/* App.css */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #1976d2;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.25s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+.form-container {
+  /* Optional: box or padding */
+  padding: 0 1rem;
+}
